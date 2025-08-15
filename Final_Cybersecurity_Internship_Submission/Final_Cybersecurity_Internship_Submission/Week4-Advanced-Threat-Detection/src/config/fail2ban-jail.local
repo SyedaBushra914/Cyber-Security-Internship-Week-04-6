@@ -1,0 +1,11 @@
+
+[sshd]
+enabled = true
+
+[node-api]
+enabled = true
+port    = 4000
+filter  = node-auth
+logpath = /var/log/auth.log
+maxretry = 5
+bantime = 3600

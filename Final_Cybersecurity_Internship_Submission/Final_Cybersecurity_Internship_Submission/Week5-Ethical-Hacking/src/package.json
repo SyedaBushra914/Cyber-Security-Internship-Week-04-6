@@ -1,0 +1,16 @@
+{
+  "name": "week5-ethical-hacking",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
+    "csurf": "^1.11.0",
+    "cookie-parser": "^1.4.6",
+    "body-parser": "^1.20.2"
+  }
+}

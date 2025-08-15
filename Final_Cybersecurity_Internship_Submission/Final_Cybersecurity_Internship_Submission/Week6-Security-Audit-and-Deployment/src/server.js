@@ -1,0 +1,1 @@
+import express from 'express'; const app = express(); app.get('/', (req,res)=>res.send('Week6 server')); app.listen(process.env.PORT||4200, ()=>console.log('Week6 running'));
